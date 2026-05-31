@@ -9,7 +9,7 @@ jobs:
           uses: actions/checkout@v6
 
         - name: Sync files
-          uses: SamiKirkland/FTP-Deploy-Action@v4.4.0
+          uses: SamKirkland/FTP-Deploy-Action@v4.4.0
           with:
             server: 20.215.35.36
             username: student
