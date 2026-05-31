@@ -11,8 +11,8 @@ jobs:
         - name: Sync files
           uses: SamKirkland/FTP-Deploy-Action@v4.4.0
           with:
-            server: 20.215.35.36
-            username: student
-            password: student1234#*
+            server: ${{ secrets.server }}
+            username: ${{ secrets.student }}
+            password: ${{ secrets.haslo }}
             protocol: ftp
             server-dir: /var/www/html/bartekregina
