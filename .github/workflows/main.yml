@@ -15,4 +15,4 @@ jobs:
             username: ${{ secrets.student }}
             password: ${{ secrets.haslo }}
             protocol: ftp
-            server-dir: /var/www/html/bartekregina
+            server-dir: /var/www/html/bartekregina/
